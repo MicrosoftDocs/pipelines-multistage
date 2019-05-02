@@ -1,0 +1,39 @@
+# Fan-out, fan-in 
+
+stages:
+- stage: build_test
+  jobs:
+  - job: build_test
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Build!
+
+- stage: deploy_east
+  dependsOn: build_test
+  jobs:
+  - job: deploy_to_east
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Depoying East!
+
+- stage: deploy_west
+  dependsOn: build_test
+  jobs:
+  - job: deploy_to_west
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Deploying West!
+    
+- stage: prod_verify
+  dependsOn:
+  - deploy_east
+  - deploy_west
+  jobs:
+  - job: verify
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Verifying deploys!
