@@ -3,7 +3,7 @@
 
 Build-test-staging-prod
 
-[![Build Status](https://dev.azure.com/multi-stage-sample-pipeline-demo/multi-stage-samples/_apis/build/status/built-test-staging-deploy?branchName=master)](https://dev.azure.com/multi-stage-sample-pipeline-demo/multi-stage-samples/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/build-test-staging-prod?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=1&branchName=master)
 
 Fan-out-fan-in
 
