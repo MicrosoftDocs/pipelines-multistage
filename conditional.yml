@@ -1,0 +1,30 @@
+# Conditional pipeline
+
+stages:
+- stage: build_test
+  jobs:
+  - job: build_test
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Build
+
+- stage: deploy
+  dependsOn: build_test
+  condition: eq(variables['Build.SourceBranch'], 'refs/heads/releases')
+  jobs:
+  - job: deploy_to_west
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Deploying West
+    
+- stage: prod_verify
+  dependsOn:
+  - deploy
+  jobs:
+  - job: verify
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Verifying deploy
