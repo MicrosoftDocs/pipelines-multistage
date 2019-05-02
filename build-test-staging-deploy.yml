@@ -1,0 +1,37 @@
+# Built-test-staging-prod pipeline
+
+stages:
+- stage: build
+  jobs:
+  - job: run_build
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Build
+
+- stage: test
+  dependsOn: build
+  jobs:
+  - job: run_tests
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Test
+    
+- stage: staging
+  dependsOn: test
+  jobs:
+  - job: deploy_staging
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Staging
+
+- stage: prod
+  dependsOn: staging
+  jobs:
+  - job: deploy_prod
+    pool:
+      vmImage: 'Ubuntu 16.04'
+    steps:
+    - script: echo Prod
