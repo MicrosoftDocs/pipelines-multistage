@@ -3,19 +3,19 @@
 
 Build-test-staging-prod
 
-[![Build Status](https://dev.azure.com/multi-stage-sample-pipeline-demo/multi-stage-samples/_apis/build/status/built-test-staging-deploy?branchName=master)](https://dev.azure.com/multi-stage-sample-pipeline-demo/multi-stage-samples/_build/latest?definitionId=1?branchName=master)
+[![Build Status](https://dev.azure.com/multi-stage-sample-pipeline-demo/multi-stage-samples/_apis/build/status/built-test-staging-deploy?branchName=master)](https://dev.azure.com/multi-stage-sample-pipeline-demo/multi-stage-samples/_build/latest?definitionId=1&branchName=master)
 
 Fan-out-fan-in
 
-[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/fan-out-fan-in?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=5?branchName=master)
+[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/fan-out-fan-in?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=5&branchName=master)
 
 Matrix
 
-[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/matrix?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=3?branchName=master)
+[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/matrix?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=3&branchName=master)
 
 Conditional
 
-[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/conditional?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=2?branchName=master)
+[![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/conditional?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=2&branchName=master)
 
 # Contributing
 
