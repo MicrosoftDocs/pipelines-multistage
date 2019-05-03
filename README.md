@@ -1,25 +1,25 @@
 # Sample pipeline runs
 [All Pipelines](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build)
 
-## Build-test-staging-prod
+### Build-test-staging-prod
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/build-test-staging-prod?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=1&branchName=master)
 
-![Preview](/res/build-test-staging-prod.png "Click to go to the pipeline examples")
+[![Preview](/res/build-test-staging-prod.png "Click to go to the pipeline examples")](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=1&branchName=master)
 
-## Fan-out-fan-in
+### Fan-out-fan-in
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/fan-out-fan-in?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=5&branchName=master)
 
-![Preview](/res/fan-out-fan-in.png "Click to go to the pipeline examples")
+[![Preview](/res/fan-out-fan-in.png "Click to go to the pipeline examples")](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=5&branchName=master)
 
-## Matrix
+### Matrix
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/matrix?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=3&branchName=master)
 
-[![Preview](/res/matrix.png "Click to go to the pipeline examples")](https://www.google.com)
+[![Preview](/res/matrix.png "Click to go to the pipeline examples")](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=3&branchName=master)
 
-## Conditional
+### Conditional
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/conditional?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=2&branchName=master)
 
