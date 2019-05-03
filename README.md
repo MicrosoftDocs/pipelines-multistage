@@ -9,6 +9,8 @@ Fan-out-fan-in
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/fan-out-fan-in?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=5&branchName=master)
 
+![Preview](/res/fan-out-fan-in.png "Click to go to the pipeline examples")
+
 Matrix
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/matrix?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=3&branchName=master)
