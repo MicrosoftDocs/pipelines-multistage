@@ -1,5 +1,12 @@
 # Conditional pipeline
 
+# Only run against master
+trigger:
+- master
+
+# Don't run against PRs
+pr: none
+
 stages:
 - stage: build_test
   jobs:

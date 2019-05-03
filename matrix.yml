@@ -1,4 +1,11 @@
-# Matrix strategy
+# Matrix pipeline
+
+# Only run against master
+trigger:
+- master
+
+# Don't run against PRs
+pr: none
 
 strategy:
   matrix:
