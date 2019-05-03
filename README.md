@@ -23,6 +23,8 @@
 
 [![Build Status](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_apis/build/status/conditional?branchName=master)](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=2&branchName=master)
 
+[![Preview](/res/conditional.png "Click to go to the pipeline examples")](https://dev.azure.com/azure-devops-yaml/multi-stage-samples/_build/latest?definitionId=2&branchName=master)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
