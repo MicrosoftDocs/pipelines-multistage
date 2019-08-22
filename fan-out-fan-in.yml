@@ -23,7 +23,7 @@ stages:
     pool:
       vmImage: 'Ubuntu 16.04'
     steps:
-    - script: echo Depoying East!
+    - script: echo Deploying East!
 
 - stage: deploy_west
   dependsOn: build_test
